@@ -1,0 +1,40 @@
+[
+  {
+    "url": "http://127.0.0.1:8001/api/tests",
+    "body": {
+      "testname": "ЕГЭ по дисциплине Железная игра",
+      "questions": [
+        {
+          "question_text": "К какому СТИЛЮ относится трюк с вязанием гвоздей в узел? ", 
+          "options": [
+            {"option_text":"Деформация металла", "is_correct": false},
+            {"option_text":"Изометрия", "is_correct": false}, 
+            {"option_text":"Бендинг", "is_correct": true} 
+          ]
+        },
+        {
+          "question_text": "Как называется движение, когда снаряд поднимается над головой одним движением с пола?", 
+          "options": [
+            {"option_text":"Швунг", "is_correct": false},
+            {"option_text":"Толчок", "is_correct": false}, 
+            {"option_text":"Жим над головой", "is_correct": false},
+            {"option_text":"Рывок", "is_correct": true},
+            {"option_text":"Натяжка", "is_correct": false}
+          ]
+        },
+        {
+          "question_text": "Какие снаряды считаются одобренными для ССШ?", 
+          "options": [
+            {"option_text":"Гири", "is_correct": true},
+            {"option_text":"Штанги", "is_correct": true}, 
+            {"option_text":"Люди", "is_correct": true},
+            {"option_text":"Животные", "is_correct": true},
+            {"option_text":"Гантели", "is_correct": true}
+          ]
+        }
+      ]
+    },
+    "response": {"data": [{"id": "3"}]},
+    "method": "POST"
+  }
+]

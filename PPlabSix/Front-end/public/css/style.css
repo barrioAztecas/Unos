@@ -1,0 +1,205 @@
+html, body {
+    /*background: linear-gradient(to right, #ece9e6, #ffffff);
+    background-image: "{{asset('images/city2.jpg')}}";*/
+    font-family: "Times";
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+/*#pixie{
+    z-index:2;
+}
+*/
+img{
+   z-index:1; 
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-left {
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 52px;
+    text-shadow: 1px 1px 2px white, 0 0 1em red;
+    position: relative;
+    margin-left:-130px;
+}
+
+#title-test {
+    font-size: 52px;
+    text-shadow: 1px 1px 2px white, 0 0 1em red;
+    position: relative;
+}
+
+.links > a {
+    color: #636b6f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.question, .questionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+.question > label{
+    margin: 5px 0;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+}
+.question input{
+    margin: 0 5px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+}
+
+.btnMain{
+    font-size: 16px;
+    width: 200px;
+    height: 32px;
+}
+
+.test-name{
+    font-size: 15pt;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+}
+
+#btnCreateQuestion{
+    font-size: 14px;
+    width: 130px;
+    height: 28px;
+    margin: 15px 0;
+}
+.vQuestion{
+    width: 300px;
+}
+
+.askuser{
+    display: none;
+}
+
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+h3{
+  font-size: 25pt;
+}
+
+h2{
+  font-size: 15pt;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px white, 0 0 1em white;
+}
+
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
+
+a.button21 {
+  opacity: 0.7;
+  margin-left:-100pt;
+  margin-top:115px;
+  display: inline-block;
+  width: 200px;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-decoration: none;
+  user-select: none;
+  color: rgb(0,0,0);
+  border: 1px solid rgba(0,0,0,.4);
+  border-top-color: rgba(0,0,0,.3);
+  border-radius: 2px;
+  background: linear-gradient(aqua, blue);
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(255,255,255,.2),
+   0 -1px 1px 1px rgba(0,0,0,0);
+  transition: .2s ease-in-out;
+}
+a.button21:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+a.button21:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
